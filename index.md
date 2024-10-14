@@ -1,7 +1,3 @@
-# Ben Read's C++ Optimisation Blog
-
-## [LinkedIn](https://www.linkedin.com/in/ben-read-8031ba17b/)
-
 Software Optimisation:
 - [Multiple-Producer, Single Consumer Interprocess Queue](https://github.com/mastamysta/MPSC-Queue)
 - [Dependency Chains and Loop Unrolling](https://github.com/mastamysta/dependency-chains)
@@ -9,4 +5,4 @@ Software Optimisation:
 - [False Sharing](https://github.com/mastamysta/false-sharing)
 
 Interesting Stuff:
--[Modelling Market Participants as Agents With Zero Intelligence](https://github.com/mastamysta/ZI_Agents)
+- [Modelling Market Participants as Agents With Zero Intelligence](https://github.com/mastamysta/ZI_Agents)

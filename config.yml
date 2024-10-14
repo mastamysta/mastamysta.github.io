@@ -1,0 +1,57 @@
+theme: minima
+
+title: Ben Read's C++ Optimisation Blog
+author: Ben Read
+email: benjamin-read@hotmail.co.uk
+
+timezone: GMT # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: >
+  A blog on C++ software optimisation.
+
+# Minima variables
+github_username:   mastamysta
+linkedin_username: Ben Read
+
+show_excerpts: false
+
+
+# plugin: jekyll-seo-tag
+social:
+  name: Ben Read
+  links:
+    - https://www.linkedin.com/in/ben-read-8031ba17b/
+    - https://github.com/mastamysta
+
+# plugin: jekyll-titles-from-headings
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+home_post_limit: 5
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
